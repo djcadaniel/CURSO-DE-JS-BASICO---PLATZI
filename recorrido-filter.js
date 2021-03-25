@@ -15,18 +15,18 @@
         return articulo.costo <= 500;
     });
 
-    var auto = {
-        color: "azul",
-        anio: 2007,
-        modelo: "optra",
-        marca: "chevrolet"
-    }
+    // var auto = {
+    //     color: "azul",
+    //     anio: 2007,
+    //     modelo: "optra",
+    //     marca: "chevrolet"
+    // }
 
-    function miAuto(color, anio, modelo, marca){
-        this.color = color;
-        this.anio = anio;
-        this.modelo = modelo;
-        this.marca = marca;
-    }
+    // function miAuto(color, anio, modelo, marca){
+    //     this.color = color;
+    //     this.anio = anio;
+    //     this.modelo = modelo;
+    //     this.marca = marca;
+    // }
 
-    var autoNuevo1 = new miAuto("blue",2010, "nisan","toyota");
+    // var autoNuevo1 = new miAuto("blue",2010, "nisan","toyota");

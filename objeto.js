@@ -6,7 +6,7 @@ var miAuto = {
         console.log(`Auto ${this.modelo} ${this.annio}`);
     }
 };
-
+    
 
 //para llamar
 miAuto.marca

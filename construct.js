@@ -2,7 +2,7 @@ var miAuto = {
     marca : "Toyota",
     modelo : "Corolla",
     annio : 2020,
-    detalleDelAuto = function(){
+    detalleDelAuto : function(){
         console.log(`Auto: ${this.marca} ${this.modelo}`)
     }
 }
