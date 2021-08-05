@@ -1,4 +1,4 @@
-var nommbre = "daniel";
+var nombre = "daniel";
 
 //declarar
 
