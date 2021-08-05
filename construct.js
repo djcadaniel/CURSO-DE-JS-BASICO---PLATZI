@@ -17,3 +17,4 @@ function auto(marca, modelo, annio){
 var autoNuevo = new auto("tesla","model 3",2020);
 var autoNuevo2 = new auto("tesla","model x",2021);
 var autoNuevo3 = new auto("tesla","model 100",2018);
+var autoGit = new auto('git','github',2021)
