@@ -1,6 +1,5 @@
-//mi array contiene a objetos
 var articulos = [
-    { nombre : "bici", costo:3000 },
+    { nombre: "bici", costo: 3000},
     { nombre: "tv", costo: 2500 },
     { nombre: "libro",costo:320 },
     { nombre: "celular",costo:10000 },
@@ -9,6 +8,6 @@ var articulos = [
     { nombre: "audifonos",costo:1700 }
 ]
 
-var nuevoArticulo = articulos.find(function(arti){
-    return arti.nombre === "laptop"
+var articulosBaratos = articulos.some(function(art){
+    return art.costo <= 700
 })
